@@ -1,0 +1,3 @@
+{"family": "f1", "id": "p1", "language": "zh", "priority": "2024-01-01", "published": "2025-03-01", "text": "边缘节点在本地分析传感信号并压缩通信量。"}
+{"family": "f1", "id": "p2", "language": "en", "priority": "2024-01-01", "published": "2025-04-01", "text": "Edge nodes process sensor signals locally to reduce traffic."}
+{"family": "f2", "id": "p3", "language": "zh", "priority": "2025-02-01", "published": "2026-03-01", "text": "新的低功耗互联机制。"}

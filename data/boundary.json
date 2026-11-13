@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "tables": {
+    "taxonomy": {
+      "file": "boundary-taxonomy.jsonl",
+      "sha256": "76275109e89d7c661c6d54655162755947acdd055f4324e5b7b1d5d3e5ff4ebb",
+      "bytes": 216,
+      "rows": 4,
+      "fields": [
+        "id",
+        "parents",
+        "version"
+      ]
+    },
+    "documents": {
+      "file": "boundary-documents.jsonl",
+      "sha256": "f422c07b5bc0f8f6fcc0851cb8552d6647dd30cda42b171d31cd7e797e748923",
+      "bytes": 486,
+      "rows": 3,
+      "fields": [
+        "id",
+        "family",
+        "language",
+        "published",
+        "priority",
+        "text"
+      ]
+    },
+    "labels": {
+      "file": "boundary-labels.jsonl",
+      "sha256": "88fe4048ba5b824ae31d103830f2d6a5ca38f20f3d4f4aad991e2f79e61fa1f6",
+      "bytes": 103,
+      "rows": 1,
+      "fields": [
+        "id",
+        "document",
+        "node",
+        "taxonomy_version",
+        "confirmed_at"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{"id": "digital", "parents": [], "version": 1}
+{"id": "network", "parents": ["digital"], "version": 1}
+{"id": "ai", "parents": ["digital"], "version": 1}
+{"id": "edge_ai", "parents": ["network", "ai"], "version": 2}
