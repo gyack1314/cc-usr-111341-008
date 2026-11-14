@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "tables": {
+    "taxonomy": {
+      "file": "demo-taxonomy.jsonl",
+      "sha256": "93c5c80784c974277a60ef08da62a096326fa5cc7488a7ba9de843f8e47acb06",
+      "bytes": 1133,
+      "rows": 12,
+      "fields": [
+        "id",
+        "parents",
+        "version",
+        "introduced",
+        "deprecated"
+      ]
+    },
+    "documents": {
+      "file": "demo-documents.jsonl",
+      "sha256": "ebeb44945b13f4fd361361c08f9052b9ea48ae147d627be785705f2af396bdd3",
+      "bytes": 80419,
+      "rows": 299,
+      "fields": [
+        "id",
+        "family",
+        "language",
+        "published",
+        "priority",
+        "text"
+      ]
+    },
+    "labels": {
+      "file": "demo-labels.jsonl",
+      "sha256": "1b20d43338e223c6825619c4aa8a82995bc9e33d3288c3cb2f3396163c0567b7",
+      "bytes": 23567,
+      "rows": 207,
+      "fields": [
+        "id",
+        "document",
+        "node",
+        "taxonomy_version",
+        "confirmed_at"
+      ]
+    }
+  }
+}

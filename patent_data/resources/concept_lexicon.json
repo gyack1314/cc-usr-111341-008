@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "frozen": true,
+  "description": "冻结多语概念词表：同一 concept_id 在四种语言下对齐，用于跨语一致性。is_marker=true 的词是单语强标记（如中文'网络'同时出现在通信与神经网络语境），不能单独作为归类证据。",
+  "languages": ["zh", "en", "de", "ja"],
+  "concepts": [
+    {
+      "id": "net_transport",
+      "terms": {
+        "zh": ["网络", "路由", "分组", "通信", "协议", "报文", "链路", "传输"],
+        "en": ["network", "routing", "packet", "communication", "protocol", "datagram", "link", "transmission"],
+        "de": ["Netzwerk", "Routing", "Paket", "Kommunikation", "Protokoll", "Datenpaket", "Übertragung"],
+        "ja": ["ネットワーク", "ルーティング", "パケット", "通信", "プロトコル", "伝送"]
+      },
+      "is_marker": true
+    },
+    {
+      "id": "iot_sensing",
+      "terms": {
+        "zh": ["传感", "传感器", "物联网", "节点", "边缘", "嵌入式", "采集"],
+        "en": ["sensor", "iot", "node", "edge", "embedded", "acquisition"],
+        "de": ["Sensor", "iot", "Knoten", "Edge", "eingebettet", "Erfassung"],
+        "ja": ["センサー", "IoT", "ノード", "エッジ", "組み込み", "取得"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "low_power",
+      "terms": {
+        "zh": ["低功耗", "节能", "休眠", "唤醒", "功耗", "电池"],
+        "en": ["low-power", "low power", "energy", "sleep", "wake-up", "power", "battery"],
+        "de": ["Energieeffizient", "Schlafmodus", "Aufwecken", "Leistung", "Batterie"],
+        "ja": ["低消費電力", "省エネ", "スリープ", "起床", "電力", "バッテリー"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "ml_general",
+      "terms": {
+        "zh": ["机器学习", "训练", "模型", "分类", "推理", "学习"],
+        "en": ["machine learning", "training", "model", "classification", "inference", "learning"],
+        "de": ["maschinelles Lernen", "Training", "Modell", "Klassifizierung", "Inferenz"],
+        "ja": ["機械学習", "訓練", "モデル", "分類", "推論", "学習"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "neural",
+      "terms": {
+        "zh": ["神经网络", "深度", "神经元", "卷积", "权重"],
+        "en": ["neural", "deep learning", "neuron", "convolutional", "weights"],
+        "de": ["neuronal", "Deep Learning", "Neuron", "faltend", "Gewichte"],
+        "ja": ["ニューラル", "深層学習", "ニューロン", "畳み込み", "重み"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "edge_ai",
+      "terms": {
+        "zh": ["边缘智能", "边缘计算", "本地推理", "端侧"],
+        "en": ["edge ai", "edge computing", "on-device", "local inference"],
+        "de": ["Edge-KI", "Edge-Computing", "On-Device", "lokale Inferenz"],
+        "ja": ["エッジAI", "エッジコンピューティング", "オンデバイス", "ローカル推論"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "quantum",
+      "terms": {
+        "zh": ["量子", "纠缠", "量子密钥", "量子通信"],
+        "en": ["quantum", "entanglement", "quantum key", "quantum communication"],
+        "de": ["Quanten", "Verschränkung", "Quantenschlüssel", "Quantenkommunikation"],
+        "ja": ["量子", "もつれ", "量子鍵", "量子通信"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "biotech",
+      "terms": {
+        "zh": ["基因", "蛋白", "细胞", "测序", "生物", "发酵"],
+        "en": ["gene", "protein", "cell", "sequencing", "biological", "fermentation"],
+        "de": ["Gen", "Protein", "Zelle", "Sequenzierung", "biologisch", "Fermentation"],
+        "ja": ["遺伝子", "タンパク質", "細胞", "シーケンシング", "生物", "発酵"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "security",
+      "terms": {
+        "zh": ["加密", "认证", "密钥", "安全", "签名"],
+        "en": ["encryption", "authentication", "key", "security", "signature"],
+        "de": ["Verschlüsselung", "Authentifizierung", "Schlüssel", "Sicherheit", "Signatur"],
+        "ja": ["暗号化", "認証", "鍵", "セキュリティ", "署名"]
+      },
+      "is_marker": false
+    },
+    {
+      "id": "wireless_radio",
+      "terms": {
+        "zh": ["无线", "射频", "天线", "频谱", "调制"],
+        "en": ["wireless", "radio", "antenna", "spectrum", "modulation"],
+        "de": ["drahtlos", "Funk", "Antenne", "Spektrum", "Modulation"],
+        "ja": ["無線", "無線周波数", "アンテナ", "スペクトル", "変調"]
+      },
+      "is_marker": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{"id": "digital", "parents": [], "version": 1, "introduced": 1, "deprecated": null}
+{"id": "network", "parents": ["digital"], "version": 1, "introduced": 1, "deprecated": 2}
+{"id": "wireless", "parents": ["network"], "version": 1, "introduced": 1, "deprecated": 2}
+{"id": "radio_link", "parents": ["network"], "version": 1, "introduced": 1, "deprecated": 2}
+{"id": "ai", "parents": ["digital"], "version": 1, "introduced": 1, "deprecated": null}
+{"id": "security", "parents": ["digital"], "version": 1, "introduced": 1, "deprecated": 2}
+{"id": "telecom_network", "parents": ["digital"], "version": 1, "introduced": 2, "deprecated": null}
+{"id": "iot_network", "parents": ["digital"], "version": 1, "introduced": 2, "deprecated": null}
+{"id": "neural_net", "parents": ["ai"], "version": 1, "introduced": 2, "deprecated": null}
+{"id": "cyber_security", "parents": ["digital"], "version": 1, "introduced": 2, "deprecated": null}
+{"id": "quantum_key", "parents": ["cyber_security"], "version": 1, "introduced": 2, "deprecated": null}
+{"id": "edge_ai", "parents": ["iot_network", "ai"], "version": 1, "introduced": 2, "deprecated": null}

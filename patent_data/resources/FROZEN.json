@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "python_requires": ">=3.11",
+  "third_party_dependencies": [],
+  "offline_only": true,
+  "resources": {
+    "concept_lexicon": {
+      "path": "patent_data/resources/concept_lexicon.json",
+      "sha256": "195c9d59588b17d3fa6c19fba5af3005dcc5d8bc422b036b8fe607878fe2e7b1",
+      "bytes": 4691,
+      "languages": [
+        "zh",
+        "en",
+        "de",
+        "ja"
+      ]
+    }
+  },
+  "determinism": {
+    "rng": "in-process deterministic LCG (Numerical Recipes constants)",
+    "sorting": "all feature/threshold selections use fixed key ordering",
+    "network_access": "none"
+  }
+}

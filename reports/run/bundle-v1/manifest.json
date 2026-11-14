@@ -1,0 +1,24 @@
+{
+  "extra": {
+    "fold": {
+      "dev_end": "2021-09-30",
+      "name": "v1_fold",
+      "test_end": "2022-12-31",
+      "train_end": "2021-06-30",
+      "version": 1
+    }
+  },
+  "files": {
+    "model.json": {
+      "bytes": 463766,
+      "sha256": "bb13cc3cc29a95273cd6da854999fb80d73d8fd9ff87556251838a7807adda8b"
+    },
+    "train_families.json": {
+      "bytes": 698,
+      "sha256": "eb28125f40d4cb37b37cee87ccfba9f16f932ac744c445ea0db8b76c7afe46aa"
+    }
+  },
+  "immutable": true,
+  "schema": 1,
+  "taxonomy_version": 1
+}

@@ -1,0 +1,71 @@
+{
+  "versions": [
+    {
+      "version": 1,
+      "effective": "2019-01-01"
+    },
+    {
+      "version": 2,
+      "effective": "2023-01-01"
+    }
+  ],
+  "migrations": [
+    {
+      "op": "split",
+      "sources": [
+        "network"
+      ],
+      "targets": [
+        "telecom_network",
+        "iot_network"
+      ],
+      "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+      "note": "拆分不代表技术涌现"
+    },
+    {
+      "op": "merge",
+      "sources": [
+        "wireless",
+        "radio_link"
+      ],
+      "targets": [
+        "telecom_network"
+      ],
+      "basis": "2023目录修订第5条：无线链路类并入电信网络"
+    },
+    {
+      "op": "rename",
+      "sources": [
+        "security"
+      ],
+      "targets": [
+        "cyber_security"
+      ],
+      "basis": "2023目录修订第1条：安全类更名以涵盖量子密钥子类"
+    },
+    {
+      "op": "add",
+      "sources": [],
+      "targets": [
+        "edge_ai"
+      ],
+      "basis": "2023新增交叉技术类"
+    },
+    {
+      "op": "add",
+      "sources": [],
+      "targets": [
+        "neural_net"
+      ],
+      "basis": "2023新增神经网络细类"
+    },
+    {
+      "op": "add",
+      "sources": [],
+      "targets": [
+        "quantum_key"
+      ],
+      "basis": "2023新增量子密钥细类"
+    }
+  ]
+}

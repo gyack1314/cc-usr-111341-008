@@ -1,0 +1,1394 @@
+{
+  "schema": 1,
+  "folds": [
+    {
+      "fold": {
+        "name": "v1_fold",
+        "version": 1,
+        "train_end": "2021-06-30",
+        "dev_end": "2021-09-30",
+        "test_end": "2022-12-31"
+      },
+      "split": {
+        "name": "v1_fold",
+        "train_families": 58,
+        "dev_families": 3,
+        "test_families": 24,
+        "train_end": "2021-06-30",
+        "dev_end": "2021-09-30",
+        "test_end": "2022-12-31"
+      },
+      "evaluation": {
+        "node_metrics": {
+          "ai": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "tn": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "digital": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 0,
+            "tn": 7,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "network": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "tn": 16,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "radio_link": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 24,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "security": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "tn": 22,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "wireless": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 24,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "level_metrics": {
+          "leaf": {
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "tn": 87,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "macro": {
+            "tp": 25,
+            "fp": 0,
+            "fn": 0,
+            "tn": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "language_metrics": {
+          "de": {
+            "tp": 3,
+            "fp": 6,
+            "fn": 3,
+            "tn": 6,
+            "precision": 0.3333,
+            "recall": 0.5,
+            "f1": 0.4
+          },
+          "en": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "tn": 110,
+            "precision": 1.0,
+            "recall": 0.9412,
+            "f1": 0.9697
+          },
+          "ja": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "tn": 30,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "zh": {
+            "tp": 28,
+            "fp": 0,
+            "fn": 0,
+            "tn": 98,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "rare_metrics": {},
+        "coverage": {
+          "families": 24,
+          "accepted": 17,
+          "abstained": 7,
+          "accept_rate": 0.7083,
+          "scoped_out_of_version": 0,
+          "taxonomy_version": 1
+        },
+        "abstention_reasons": {
+          "uncovered_topic": 8
+        },
+        "error_triage": {
+          "missing_annotation": [
+            {
+              "family": "fam111",
+              "accepted": [
+                "digital",
+                "network"
+              ],
+              "truth": [
+                "digital",
+                "network"
+              ],
+              "note": "专家确认相关但漏标"
+            },
+            {
+              "family": "fam112",
+              "accepted": [
+                "digital",
+                "network"
+              ],
+              "truth": [
+                "digital",
+                "network"
+              ],
+              "note": "专家确认相关但漏标"
+            }
+          ],
+          "known_misclassification": [],
+          "noisy_label": [
+            {
+              "family": "fam113",
+              "accepted": [
+                "ai",
+                "digital"
+              ],
+              "truth": [
+                "ai",
+                "digital"
+              ],
+              "model_matches_truth": true,
+              "note": "人工标签与真值冲突"
+            },
+            {
+              "family": "fam114",
+              "accepted": [
+                "ai",
+                "digital"
+              ],
+              "truth": [
+                "ai",
+                "digital"
+              ],
+              "model_matches_truth": true,
+              "note": "人工标签与真值冲突"
+            }
+          ],
+          "new_topic_handled": [
+            {
+              "family": "fam102",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            },
+            {
+              "family": "fam103",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            },
+            {
+              "family": "fam104",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic",
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            },
+            {
+              "family": "fam105",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            },
+            {
+              "family": "fam106",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            },
+            {
+              "family": "fam107",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            },
+            {
+              "family": "fam108",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            }
+          ],
+          "new_topic_force_fit": []
+        },
+        "calibration": {
+          "brier": 0.0962,
+          "samples": 96
+        },
+        "constraint_violations": [],
+        "cross_lingual": {
+          "family_pairs": 36,
+          "mean_jaccard": 0.9106,
+          "perfect_agreement_rate": 0.8889
+        }
+      },
+      "bundle": "reports/run/bundle-v1"
+    },
+    {
+      "fold": {
+        "name": "v2_fold",
+        "version": 2,
+        "train_end": "2022-12-31",
+        "dev_end": "2023-06-30",
+        "test_end": null
+      },
+      "split": {
+        "name": "v2_fold",
+        "train_families": 85,
+        "dev_families": 22,
+        "test_families": 8,
+        "train_end": "2022-12-31",
+        "dev_end": "2023-06-30",
+        "test_end": "2024-03-06"
+      },
+      "evaluation": {
+        "node_metrics": {
+          "ai": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 8,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "cyber_security": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 1,
+            "tn": 6,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6667
+          },
+          "digital": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 1,
+            "tn": 2,
+            "precision": 1.0,
+            "recall": 0.8333,
+            "f1": 0.9091
+          },
+          "edge_ai": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 8,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "iot_network": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "tn": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "neural_net": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 8,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "quantum_key": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 8,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "telecom_network": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "tn": 6,
+            "precision": 0.0,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "level_metrics": {
+          "leaf": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "tn": 30,
+            "precision": 0.0,
+            "recall": null,
+            "f1": null
+          },
+          "macro": {
+            "tp": 10,
+            "fp": 0,
+            "fn": 2,
+            "tn": 20,
+            "precision": 1.0,
+            "recall": 0.8333,
+            "f1": 0.9091
+          }
+        },
+        "language_metrics": {
+          "de": {
+            "tp": 3,
+            "fp": 5,
+            "fn": 5,
+            "tn": 19,
+            "precision": 0.375,
+            "recall": 0.375,
+            "f1": 0.375
+          },
+          "en": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "tn": 22,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "ja": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "tn": 22,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "zh": {
+            "tp": 8,
+            "fp": 2,
+            "fn": 2,
+            "tn": 44,
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8
+          }
+        },
+        "rare_metrics": {
+          "edge_ai": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 8,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "coverage": {
+          "families": 8,
+          "accepted": 5,
+          "abstained": 3,
+          "accept_rate": 0.625,
+          "scoped_out_of_version": 0,
+          "taxonomy_version": 2
+        },
+        "abstention_reasons": {
+          "uncovered_topic": 3,
+          "short_abstract": 1
+        },
+        "error_triage": {
+          "missing_annotation": [],
+          "known_misclassification": [
+            {
+              "family": "fam025",
+              "wrong_nodes": [
+                "telecom_network"
+              ],
+              "truth": [
+                "digital",
+                "iot_network"
+              ],
+              "status": "labeled"
+            },
+            {
+              "family": "fam027",
+              "wrong_nodes": [
+                "telecom_network"
+              ],
+              "truth": [
+                "digital",
+                "iot_network"
+              ],
+              "status": "labeled"
+            }
+          ],
+          "noisy_label": [],
+          "new_topic_handled": [
+            {
+              "family": "fam109",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            },
+            {
+              "family": "fam110",
+              "accepted": [],
+              "reasons": [
+                "uncovered_topic"
+              ],
+              "note": "目录无法容纳或当时尚无该类"
+            }
+          ],
+          "new_topic_force_fit": []
+        },
+        "calibration": {
+          "brier": 0.0541,
+          "samples": 48
+        },
+        "constraint_violations": [],
+        "cross_lingual": {
+          "family_pairs": 11,
+          "mean_jaccard": 0.6121,
+          "perfect_agreement_rate": 0.5455
+        }
+      },
+      "bundle": "reports/run/bundle-v2"
+    }
+  ],
+  "catalog_diff": {
+    "added": [
+      "cyber_security",
+      "edge_ai",
+      "iot_network",
+      "neural_net",
+      "quantum_key",
+      "telecom_network"
+    ],
+    "removed": [
+      "network",
+      "radio_link",
+      "security",
+      "wireless"
+    ],
+    "deprecated": [],
+    "multi_parent_nodes": [
+      "edge_ai"
+    ],
+    "migrations": [
+      {
+        "op": "split",
+        "sources": [
+          "network"
+        ],
+        "targets": [
+          "telecom_network",
+          "iot_network"
+        ],
+        "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+        "note": "拆分不代表技术涌现"
+      },
+      {
+        "op": "merge",
+        "sources": [
+          "wireless",
+          "radio_link"
+        ],
+        "targets": [
+          "telecom_network"
+        ],
+        "basis": "2023目录修订第5条：无线链路类并入电信网络",
+        "note": ""
+      },
+      {
+        "op": "rename",
+        "sources": [
+          "security"
+        ],
+        "targets": [
+          "cyber_security"
+        ],
+        "basis": "2023目录修订第1条：安全类更名以涵盖量子密钥子类",
+        "note": ""
+      },
+      {
+        "op": "add",
+        "sources": [],
+        "targets": [
+          "edge_ai"
+        ],
+        "basis": "2023新增交叉技术类",
+        "note": ""
+      },
+      {
+        "op": "add",
+        "sources": [],
+        "targets": [
+          "neural_net"
+        ],
+        "basis": "2023新增神经网络细类",
+        "note": ""
+      },
+      {
+        "op": "add",
+        "sources": [],
+        "targets": [
+          "quantum_key"
+        ],
+        "basis": "2023新增量子密钥细类",
+        "note": ""
+      }
+    ],
+    "path_changes": {},
+    "interpretation_note": "节点增减是目录口径变化；split/merge 导致的数量变化不得称为技术涌现。技术涌现只能来自 new_topic 拒识经专家复核确认。"
+  },
+  "replay": {
+    "families": [
+      {
+        "family": "fam047",
+        "published": "2023-03-05",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "ai",
+          "digital"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam061",
+        "published": "2023-03-07",
+        "old_accepted": [],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "edge_ai",
+          "iot_network"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam048",
+        "published": "2023-03-18",
+        "old_accepted": [
+          "ai",
+          "digital"
+        ],
+        "new_accepted": [
+          "ai",
+          "digital"
+        ],
+        "migrated_expectation": [
+          "ai",
+          "digital"
+        ],
+        "migration_trace": [
+          {
+            "node": "ai",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          }
+        ],
+        "change_code": "unchanged",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam062",
+        "published": "2023-03-19",
+        "old_accepted": [],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "edge_ai",
+          "iot_network"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam098",
+        "published": "2023-03-27",
+        "old_accepted": [],
+        "new_accepted": [],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": true
+      },
+      {
+        "family": "fam011",
+        "published": "2023-04-04",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "abstention_state_changed",
+        "old_abstain": false,
+        "new_abstain": true
+      },
+      {
+        "family": "fam049",
+        "published": "2023-04-08",
+        "old_accepted": [
+          "digital",
+          "network",
+          "wireless"
+        ],
+        "new_accepted": [
+          "ai",
+          "digital"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          },
+          {
+            "node": "wireless",
+            "from": 1,
+            "to": 2,
+            "op": "merge",
+            "basis": "2023目录修订第5条：无线链路类并入电信网络",
+            "destinations": [
+              "telecom_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam063",
+        "published": "2023-04-12",
+        "old_accepted": [],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "edge_ai",
+          "iot_network"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam012",
+        "published": "2023-04-17",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "digital",
+          "iot_network"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam099",
+        "published": "2023-04-20",
+        "old_accepted": [],
+        "new_accepted": [],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": true
+      },
+      {
+        "family": "fam058",
+        "published": "2023-05-02",
+        "old_accepted": [
+          "ai",
+          "digital"
+        ],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "neural_net"
+        ],
+        "migrated_expectation": [
+          "ai",
+          "digital"
+        ],
+        "migration_trace": [
+          {
+            "node": "ai",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          }
+        ],
+        "change_code": "new_node_available",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam064",
+        "published": "2023-05-02",
+        "old_accepted": [],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "edge_ai",
+          "iot_network"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam100",
+        "published": "2023-05-06",
+        "old_accepted": [],
+        "new_accepted": [],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": true
+      },
+      {
+        "family": "fam013",
+        "published": "2023-05-16",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "digital",
+          "iot_network"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam059",
+        "published": "2023-05-19",
+        "old_accepted": [
+          "ai",
+          "digital"
+        ],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "neural_net"
+        ],
+        "migrated_expectation": [
+          "ai",
+          "digital"
+        ],
+        "migration_trace": [
+          {
+            "node": "ai",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          }
+        ],
+        "change_code": "new_node_available",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam065",
+        "published": "2023-05-26",
+        "old_accepted": [],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "edge_ai",
+          "iot_network"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam014",
+        "published": "2023-05-29",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "digital",
+          "iot_network"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam078",
+        "published": "2023-06-03",
+        "old_accepted": [
+          "digital",
+          "security"
+        ],
+        "new_accepted": [
+          "cyber_security",
+          "digital"
+        ],
+        "migrated_expectation": [
+          "cyber_security",
+          "digital"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "security",
+            "from": 1,
+            "to": 2,
+            "op": "rename",
+            "basis": "2023目录修订第1条：安全类更名以涵盖量子密钥子类",
+            "destinations": [
+              "cyber_security"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "renamed",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam101",
+        "published": "2023-06-03",
+        "old_accepted": [],
+        "new_accepted": [],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": true
+      },
+      {
+        "family": "fam066",
+        "published": "2023-06-07",
+        "old_accepted": [],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "edge_ai",
+          "iot_network"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam060",
+        "published": "2023-06-09",
+        "old_accepted": [
+          "ai",
+          "digital"
+        ],
+        "new_accepted": [
+          "ai",
+          "digital",
+          "neural_net"
+        ],
+        "migrated_expectation": [
+          "ai",
+          "digital"
+        ],
+        "migration_trace": [
+          {
+            "node": "ai",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          }
+        ],
+        "change_code": "new_node_available",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam079",
+        "published": "2023-06-16",
+        "old_accepted": [],
+        "new_accepted": [
+          "cyber_security",
+          "digital"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam025",
+        "published": "2023-07-05",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam080",
+        "published": "2023-07-15",
+        "old_accepted": [],
+        "new_accepted": [
+          "cyber_security",
+          "digital"
+        ],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": false
+      },
+      {
+        "family": "fam026",
+        "published": "2023-07-22",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "digital",
+          "iot_network"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam109",
+        "published": "2023-07-27",
+        "old_accepted": [],
+        "new_accepted": [],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": true
+      },
+      {
+        "family": "fam027",
+        "published": "2023-08-12",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam110",
+        "published": "2023-08-16",
+        "old_accepted": [],
+        "new_accepted": [],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": true
+      },
+      {
+        "family": "fam028",
+        "published": "2023-08-29",
+        "old_accepted": [
+          "digital",
+          "network"
+        ],
+        "new_accepted": [
+          "digital",
+          "iot_network"
+        ],
+        "migrated_expectation": [
+          "digital",
+          "iot_network",
+          "telecom_network"
+        ],
+        "migration_trace": [
+          {
+            "node": "digital",
+            "from": 1,
+            "to": 2,
+            "status": "unmapped"
+          },
+          {
+            "node": "network",
+            "from": 1,
+            "to": 2,
+            "op": "split",
+            "basis": "2023目录修订第3条：通信网络与物联网络口径分离",
+            "destinations": [
+              "telecom_network",
+              "iot_network"
+            ],
+            "status": "migrated"
+          }
+        ],
+        "change_code": "split_expanded",
+        "old_abstain": false,
+        "new_abstain": false
+      },
+      {
+        "family": "fam115",
+        "published": "2024-03-06",
+        "old_accepted": [],
+        "new_accepted": [],
+        "migrated_expectation": [],
+        "migration_trace": [],
+        "change_code": "abstention_state_changed",
+        "old_abstain": true,
+        "new_abstain": true
+      }
+    ],
+    "change_counts": {
+      "split_expanded": 9,
+      "abstention_state_changed": 16,
+      "unchanged": 1,
+      "new_node_available": 3,
+      "renamed": 1
+    }
+  }
+}

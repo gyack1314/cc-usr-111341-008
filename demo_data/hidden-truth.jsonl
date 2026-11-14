@@ -1,0 +1,115 @@
+{"family": "fam001", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam002", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam003", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam004", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam005", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam006", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam007", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam008", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam009", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam010", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam011", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam012", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam013", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam014", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam015", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam016", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam017", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam018", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam019", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam020", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam021", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam022", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam023", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam024", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam025", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam026", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam027", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam028", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam029", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam030", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam031", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam032", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam033", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam034", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam035", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam036", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam037", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam038", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam039", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam040", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam041", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam042", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam043", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam044", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam045", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam046", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam047", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam048", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam049", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam050", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam051", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam052", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam053", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam054", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam055", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam056", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam057", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam058", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam059", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam060", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam061", "nodes": ["iot_network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam062", "nodes": ["iot_network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam063", "nodes": ["iot_network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam064", "nodes": ["iot_network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam065", "nodes": ["iot_network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam066", "nodes": ["iot_network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam067", "nodes": ["network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam068", "nodes": ["network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam069", "nodes": ["network", "ai", "edge_ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam070", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam071", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam072", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam073", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam074", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam075", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam076", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam077", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam078", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam079", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam080", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam081", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam082", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam083", "nodes": ["telecom_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam084", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam085", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam086", "nodes": ["iot_network"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam087", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam088", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam089", "nodes": ["ai"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam090", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam091", "nodes": ["ai", "neural_net"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam092", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam093", "nodes": ["cyber_security"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam094", "nodes": ["quantum_key"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam095", "nodes": ["quantum_key"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam096", "nodes": ["quantum_key"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam097", "nodes": ["quantum_key"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam098", "nodes": ["cyber_security", "quantum_key"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam099", "nodes": ["cyber_security", "quantum_key"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam100", "nodes": ["cyber_security", "quantum_key"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam101", "nodes": ["cyber_security", "quantum_key"], "version": 2, "status": "labeled", "note": ""}
+{"family": "fam102", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam103", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam104", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam105", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam106", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam107", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam108", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam109", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam110", "nodes": ["biotech_process"], "version": 2, "status": "new_topic", "note": "目录无法容纳或当时尚无该类"}
+{"family": "fam111", "nodes": ["iot_network"], "version": 2, "status": "missing_annotation", "note": "专家确认相关但漏标"}
+{"family": "fam112", "nodes": ["iot_network"], "version": 2, "status": "missing_annotation", "note": "专家确认相关但漏标"}
+{"family": "fam113", "nodes": ["ai", "neural_net"], "version": 2, "status": "noisy_label", "note": "人工标签与真值冲突"}
+{"family": "fam114", "nodes": ["ai", "neural_net"], "version": 2, "status": "noisy_label", "note": "人工标签与真值冲突"}
+{"family": "fam115", "nodes": ["cyber_security"], "version": 2, "status": "short_abstract", "note": "摘要过短应触发拒识"}
